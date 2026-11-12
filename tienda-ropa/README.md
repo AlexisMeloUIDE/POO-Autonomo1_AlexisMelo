@@ -1,8 +1,8 @@
-### Sistema de Gestión para Tienda de Ropa 
+# Sistema de Gestión para Tienda de Ropa 
 
 Sistema modular de gestión comercial desarrollado en **Go (Golang)** como parte del **Aprendizaje Autónomo 1** de la asignatura *Programación Orientada a Objetos*. 
 
-El proyecto automatiza las funciones funamentales de una tienda de ropa mediante el uso de 4 paquetes funcionales dentro de un único módulo de Go.
+El proyecto automatiza las funciones funamentales de unatienda de ropa mediante el uso de 4 paquetes funcionales dentro de un único módulo de Go.
 
 ## 🏗️ Arquitectura de Paquetes
 
