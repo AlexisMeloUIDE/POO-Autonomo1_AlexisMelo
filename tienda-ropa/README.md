@@ -1,4 +1,4 @@
-## Sistema de Gestión para Tienda de Ropa 
+### Sistema de Gestión para Tienda de Ropa 
 
 Sistema modular de gestión comercial desarrollado en **Go (Golang)** como parte del **Aprendizaje Autónomo 1** de la asignatura *Programación Orientada a Objetos*. 
 
@@ -10,10 +10,10 @@ El proyecto sigue una estructura de módulo único (`go.mod`) dividido en 4 paqu
 
 | Paquete | Responsabilidad Principal | Funciones Clave |
 | :--- | :--- | :--- |
-| **`venta`** | Kernel de datos del dominio (modelos base) y gestión del carrito de compras. | `CrearPrenda`, `NuevoCarrito`, `AgregarItem` |
-| **`inventario`** | Consultas, filtrado por categorías, búsqueda por ID y control de existencias. | `FiltrarPorCategoria`, `BuscarPorID`, `ActualizarStock` |
-| **`facturacion`** | Tubería financiera para cálculo de subtotales, descuentos e IVA (15%). | `CalcularSubtotal`, `AplicarDescuento`, `CalcularIVA`, `GenerarFactura` |
-| **`reportes`** | Agregación de ventas acumuladas e identificación de stock crítico. | `TotalVentas`, `ObtenerStockBajo` |
+| **`venta`** | Definición de prenda, factura y gestión del carrito de compras. | `CrearPrenda`, `NuevoCarrito`, `AgregarItem` |
+| **`inventario`** | Filtros, búsqueda por ID y control de existencias. | `FiltrarPorCategoria`, `BuscarPorID`, `ActualizarStock` |
+| **`facturacion`** | Sección financiera para cálculo de subtotales, descuentos e impestos. | `CalcularSubtotal`, `AplicarDescuento`, `CalcularIVA`, `GenerarFactura` |
+| **`reportes`** | Análisis de las ventas totales e identificación de stock crítico. | `TotalVentas`, `ObtenerStockBajo` |
 
 ---
 
