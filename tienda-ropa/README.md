@@ -4,7 +4,7 @@ Sistema modular de gestión comercial desarrollado en **Go (Golang)** como parte
 
 El proyecto automatiza las funciones funamentales de unatienda de ropa mediante el uso de 4 paquetes funcionales dentro de un único módulo de Go.
 
-## 🏗️ Arquitectura de Paquetes
+## Tabla de funciones resumida
 
 El proyecto sigue una estructura de módulo único (`go.mod`) dividido en 4 paquetes con responsabilidades delimitadas:
 
