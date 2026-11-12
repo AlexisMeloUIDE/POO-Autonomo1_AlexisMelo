@@ -19,6 +19,7 @@ El proyecto sigue una estructura de módulo único (`go.mod`) dividido en 4 paqu
 
 ## Estructura del Repositorio
 
+```text
 tienda-ropa/
 ├── go.mod                  ← Módulo raíz de Go (go mod init tienda-ropa)
 ├── README.md               ← Documentación general del proyecto
