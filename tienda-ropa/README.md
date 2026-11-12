@@ -1,4 +1,4 @@
-#Sistema de Gestión para Tienda de Ropa 
+## Sistema de Gestión para Tienda de Ropa 
 
 Sistema modular de gestión comercial desarrollado en **Go (Golang)** como parte del **Aprendizaje Autónomo 1** de la asignatura *Programación Orientada a Objetos*. 
 
@@ -17,7 +17,7 @@ El proyecto sigue una estructura de módulo único (`go.mod`) dividido en 4 paqu
 
 ---
 
-##Estructura del Repositorio
+## Estructura del Repositorio
 
 tienda-ropa/
 ├── go.mod                  ← Módulo raíz de Go (go mod init tienda-ropa)
